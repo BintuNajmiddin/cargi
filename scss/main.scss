@@ -1,0 +1,23 @@
+@import url(./fonts.css);
+
+
+
+.social-link{
+    text-decoration: none;
+    font-weight:$ff1;
+    border-radius: 50%;
+   width: 29px;
+   height: 29px;
+}
+
+.social__link i{
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.top-header{
+    background-color:  #080808;
+    
+}
+

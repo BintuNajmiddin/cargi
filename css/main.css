@@ -1,0 +1,16 @@
+@import url(./fonts.css);
+a {
+  text-decoration: none;
+  font-weight: 40;
+  border-radius: 50%;
+}
+
+.top-header {
+  background-color: #080808;
+}
+
+.social__link {
+  color: #fff;
+  background-color: #F62221;
+  padding: 14px;
+}

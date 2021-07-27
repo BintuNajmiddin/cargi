@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Medium'), local('TT-Norms-Medium'),
+        url('../fonts/TTNorms-Medium.woff2') format('woff2'),
+        url('../fonts/TTNorms-Medium.woff') format('woff'),
+        url('../fonts/TTNorms-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Museo Sans';
+    src: local('Museo Sans 300'), local('Museo-Sans-300'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Museo Sans';
+    src: local('Museo Sans 500'), local('Museo-Sans-500'),
+        url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Museo Sans';
+    src: local('Museo Sans 700'), local('Museo-Sans-700'),
+        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ydfhik');
+    src:  url('../fonts/icomoon.eot?ydfhik#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ydfhik') format('truetype'),
+      url('../fonts/icomoon.woff?ydfhik') format('woff'),
+      url('../fonts/icomoon.svg?ydfhik#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-right:before {
+    content: "\e900";
+  }
+  .icon-arrow-bottom:before {
+    content: "\e901";
+  }
+  .icon-clock:before {
+    content: "\e902";
+  }
+  .icon-map:before {
+    content: "\e903";
+  }
+  .icon-email:before {
+    content: "\e904";
+  }
+  .icon-phone:before {
+    content: "\e905";
+  }
+  .icon-vk:before {
+    content: "\e906";
+  }
+  .icon-instagram:before {
+    content: "\e907";
+  }
+  .icon-facebook:before {
+    content: "\e908";
+  }

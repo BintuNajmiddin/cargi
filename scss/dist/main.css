@@ -1,0 +1,511 @@
+@import url(./fonts.css);
+body {
+  font-family: "Museo Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  margin-bottom: 184px;
+}
+
+.top-header {
+  padding: 5px 0;
+  background-color: #080808;
+}
+.top-header__info {
+  font-weight: 500;
+  font-size: 14px;
+  color: #7b7b7b;
+}
+.top-header__info:not(:last-child) {
+  margin-right: 15px;
+}
+.top-header__icon {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background-color: #272727;
+  font-size: 12px;
+  text-align: center;
+  line-height: 31px;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.top-header__link {
+  color: #7b7b7b;
+}
+.top-header__link:hover {
+  color: #fff;
+}
+.top-header__dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 5px;
+  background-color: #f62221;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #f62221;
+  border-radius: 50%;
+}
+
+.social__link {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background-color: rgba(78, 78, 78, 0.5);
+  font-size: 14px;
+  text-align: center;
+  line-height: 31px;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-align: center;
+  line-height: 31px;
+  color: #fff;
+  border-radius: 5px;
+}
+.social__link:hover {
+  background-color: #f62221;
+  color: #fff;
+}
+.social__link:not(:first-child) {
+  margin-left: 5px;
+}
+
+.intro {
+  padding-top: 30px;
+  padding-bottom: 344px;
+  background-image: url(../img/bg1.jpg);
+}
+.intro__content {
+  max-width: 616px;
+}
+.intro__type {
+  margin-bottom: 30px;
+}
+.intro__title {
+  font-family: "Museo Sans";
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 34px;
+}
+.intro__text {
+  font-family: "Museo Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: left;
+  color: #BABABD;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.red-button {
+  font-family: "Museo Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 55px;
+  background-color: transparent;
+  padding: 16px 40px;
+  transition: all 0.5s ease-in-out;
+  margin-right: 33px;
+}
+.red-button:hover {
+  background-color: #F62221;
+  box-shadow: 0px 16px 24px rgba(246, 34, 33, 0.2), 0px 2px 6px rgba(246, 34, 33, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  color: #fff;
+}
+
+.intro-type {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.atelye {
+  font-family: "Museo Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  text-align: left;
+  color: #bababd;
+  margin-right: 15px;
+}
+
+.studio {
+  font-family: "Museo Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  background-color: #7B1312;
+  border-radius: 0px 15px;
+  padding: 8px 18px;
+}
+
+.menu__link {
+  font-family: "Museo Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.menu__link:not(:last-child) {
+  margin-right: 5px;
+}
+.menu__link:hover {
+  color: #f62221;
+}
+.menu__button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.second-dot {
+  margin-left: 10px;
+}
+
+.menu-link-icon {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.last-works {
+  position: relative;
+  padding: 81px 0 41px 0;
+}
+.last-works:after {
+  content: "";
+  position: absolute;
+  width: 748px;
+  height: 226px;
+  background-image: url(../img/logo-3.svg);
+  top: 30px;
+  right: 30px;
+}
+
+.title {
+  font-family: "Museo Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #080808;
+  position: relative;
+  margin-bottom: 50px;
+}
+.title::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background: #F62221;
+  border-radius: 55px;
+  position: absolute;
+  top: 100px;
+}
+
+.red-shape {
+  width: 33px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: rotate(-90deg);
+  background: #F62221;
+  border-radius: 0px 15px;
+  margin-bottom: 47px;
+  position: absolute;
+  top: 31px;
+}
+
+.box {
+  position: relative;
+  margin-bottom: 30px;
+}
+.box__img {
+  width: 100%;
+}
+.box:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, rgba(8, 8, 8, 0) 0%, rgba(8, 8, 8, 0.8) 100%);
+  border-radius: 0px 0px 7px 7px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.mercedes {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.price {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 46px;
+  right: 50px;
+}
+
+.currency {
+  color: #F62221;
+}
+
+.all-jobs {
+  text-align: right;
+  color: #080808;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ar-right {
+  color: #F62221;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.photos {
+  margin-top: 91px;
+}
+
+.car-appearance {
+  margin-bottom: 80px;
+}
+
+.car-card {
+  position: relative;
+}
+.car-card:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, rgba(8, 8, 8, 0) 0%, rgba(8, 8, 8, 0.666667) 59.9%, #080808 100%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+.car-card__img {
+  width: 100%;
+}
+.car-card__info {
+  position: absolute;
+  top: 38px;
+  left: 50px;
+}
+.car-card__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.car-card__text {
+  color: #fff;
+  font-size: 16px;
+  max-width: 406px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.date {
+  color: #7b7b7b;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 160px;
+}
+
+.second {
+  top: 43px;
+}
+
+.work-title {
+  color: #080808;
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 102px;
+  position: relative;
+}
+.work-title::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background: #F62221;
+  border-radius: 55px;
+  position: absolute;
+  top: 100px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto 83px;
+  grid-template-rows: 76px 76px 76px 76px 76px;
+}
+.grid-container img {
+  border-radius: 7px;
+}
+
+.big-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.grid-items:hover img {
+  box-shadow: 0 0 0 4px #F62221;
+  border-radius: 7px;
+}
+
+.grid-item1 {
+  grid-area: 1/1/6/2;
+}
+
+.grid-item2 {
+  grid-area: 1/2/2/3;
+}
+
+.grid-item3 {
+  grid-area: 2/2/3/3;
+}
+
+.grid-text__title {
+  color: #080808;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.grid-text__list {
+  color: #7B7B7B;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+::marker {
+  color: #F62221;
+}
+
+.text-circle {
+  margin-right: 5px;
+}
+
+.location {
+  position: relative;
+}
+
+.svg-logo {
+  background-image: url(../img/cargi-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 84px;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transform: translateY(53px);
+}
+.svg-logo:before {
+  content: "";
+  height: 6px;
+  border-radius: 0 55px 55px 0;
+  background: #F62221;
+  left: 0;
+  position: absolute;
+  width: 43%;
+  bottom: 53px;
+}
+.svg-logo:after {
+  content: "";
+  height: 6px;
+  border-radius: 0 55px 55px 0;
+  background-color: #F62221;
+  right: 0;
+  width: 43%;
+  position: absolute;
+  bottom: 53px;
+}
+
+.location-map {
+  width: 100%;
+}
+
+.footer {
+  background-color: #080808;
+  padding: 80px 0 76px 0;
+}
+.footer__info {
+  color: #697a89;
+}
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer__allrights {
+  color: #697A89;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+}
+.footer__text {
+  line-height: 20px;
+  font-size: 14px;
+  max-width: 215px;
+  margin-bottom: 30px;
+}
+
+.navi__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 15px;
+  color: #F62221;
+}
+.navi__link {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 10px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.navi:hover {
+  color: #F62221;
+}

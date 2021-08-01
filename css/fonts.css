@@ -95,3 +95,6 @@
     content: "\e908";
   }
   
+.icon-ok:before {
+  content: "\e900";
+}

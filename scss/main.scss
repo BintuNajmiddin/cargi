@@ -88,8 +88,15 @@ a {
 
 .social {
     &__link {
-        @include circle_icon($fsize: 13px, $bg: rgba(246, 34, 33, 0.25));
+        @include circle_icon($fsize: 14px, $bg: rgba(78 , 78 , 78 , 0.5));
         transition: all 0.3s ease;
+
+        text-align: center;
+        line-height: 31px;
+        color: #fff;
+        border-radius: 5px;
+   
+   
 
         &:hover {
             background-color: rgba(246, 34, 33, 1);
